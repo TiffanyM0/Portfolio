@@ -1,5 +1,5 @@
 import React from "react"
-
+// tailwind playgrouond. end goal is scroll animation. 
 const Home = (props) => {
   return (
     <div className="">

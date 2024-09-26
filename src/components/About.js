@@ -1,5 +1,5 @@
 import React from "react"
-
+// also use animations, advanced level/
 const About = (props) => {
   return (
     <div>
