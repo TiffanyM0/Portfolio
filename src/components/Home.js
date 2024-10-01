@@ -1,14 +1,13 @@
 import React from "react"
 // tailwind playgrouond. end goal is scroll animation. 
-
+import welcom from "./welcom.jpg"
 const Home = (props) => {
+  // style={{backgroundImage: `url(${welcom})`}}
   return (
-    <div className="">
-      <div className="welcome">
+    <div className="" >
+      <div className="h-screen content-center " >
         <h1 className="text-lime-400 font-bold text-9xl">Welcome to My Portfolio</h1>
-      </div>
-      <div className="welcomepic">
-        <img src="welcom.jpg"/>
+        <h1> Other text to be on the side</h1>
       </div>
       <div>
         <p className="hover:text-lime-400 hover:font-bold text-4xl">Websites</p>

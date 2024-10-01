@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="bg-slate-700 text-white font-sans space-y-4 py-2">
+    <div className="">
       <header>
         <NavBar/>
       </header>
